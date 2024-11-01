@@ -1,0 +1,71 @@
+
+/* START view slider */
+.owl-carousel{
+	direction: ltr !important;
+}
+.wpoc-item {
+	margin: 10px;
+	padding: 0;
+}
+
+.wpoc-item .item h3 {
+font-size: 30px;
+font-weight: 300;
+margin: 25px 0 15px;
+}
+
+.wpoc-item .item h4 {
+margin: 5px 0 0 ;
+font-size: 18px ;
+}
+
+
+.wpoc-default-slide{
+	width: 100%;
+	height: 100%;
+	padding: 30px 0;
+	text-align: center;
+	text-align: center;
+	background-color: transparent;
+	 /* -webkit-border-radius: 3px; */
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.wpoc-default-slide span{
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+.wpoc-default-slide .wpoc-titles-wrapper{
+	height: 40%;
+}
+.wpoc-default-slide h3{
+	margin: 15px 0 0 0 !important;
+}
+.wpoc-default-slide h4{
+	margin: 5px 0 0 0 !important;
+	font-weight: 0 !important;
+}
+
+
+.wpoc-default-slide  h1, h2, h3, h4, h5, h6 {
+    margin: 11px 0 !important;
+    font-family: inherit !important;
+    font-weight: 300 !important;
+    line-height: 22px !important;
+    color: inherit;
+    text-rendering: optimizelegibility;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.wpoc-default-slide h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+/* END view slider */

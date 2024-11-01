@@ -1,0 +1,350 @@
+
+/* START general */
+.bootstrap-wrapper{
+	background-color: #FFFFFF;
+	margin-top: 20px;
+}
+.bootstrap-wrapper label{
+	display: block;
+}
+/*.bootstrap-wrapper input[type="text"], .bootstrap-wrapper select{
+	width: 250px;
+}*/
+@media (min-width: 50px) and (max-width: 479px){
+	/*.bootstrap-wrapper input[type="text"], .bootstrap-wrapper select{
+		width: 200px;
+	}*/
+	.wpoc-div-height260{
+		height: auto !important;
+	}
+}
+@media (min-width: 10px) and (max-width: 765px){
+	.wpoc-submit.wpoc-fixed{
+		position: fixed;
+		top: 0px !important;
+		left: 0px; /* ### */
+	}
+}
+/*
+@media (min-width: 979px) and (max-width: 1198px){
+	.bootstrap-wrapper input[type="text"], .bootstrap-wrapper select{
+		width: 170px;
+	}
+}*/
+.wpoc-full-width{
+	width: 100% !important;
+}
+span.wpoc-image, span.wpoc-title, span.wpoc-device{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 10px;
+	text-align: center;
+}
+span.wpoc-device > input[type="text"]{
+	width: 100%;
+}
+.wpoc-label{
+	padding-bottom: 20px;
+}
+.wpoc-no-label{
+	padding-top: 35px;
+}
+/* color picker */
+.colpick{
+	z-index: 99999;
+}
+
+.wpoc-div-align-bottom{
+	position: absolute;
+	bottom: 0px;
+	right: auto;
+	left: auto;
+}
+.wpoc-div-height260{
+	height: 260px;
+}
+.wpoc-div-margin-bottom20{
+	margin-bottom: 20px;
+}
+.wpoc-code-field{
+	cursor: copy !important;
+}
+.wpoc-btn-by-fld{
+	padding-top: 23px;
+	padding-bottom: 10px;
+}
+.wpoc-slider-value{
+	color: #6479AA;
+}
+/* END general */
+
+/* start logo */
+div.wpoc-plugin-logo{
+	margin-bottom: 10px;
+}
+div.wpoc-plugin-logo img{
+	border: none;
+	width: 80px;
+	height: 80px;
+}
+div.wpoc-plugin-logo h2{
+	font-size: 40px;
+	font-weight: bold;
+}
+.wpoc-first-logo-color{
+	color: #910000;
+}
+.wpoc-second-logo-color{
+	color: #598800;
+}
+.wpoc-third-logo-color{
+	color: #005757;
+}
+.wpoc-row > div{
+	padding-right: 3px !important;
+	padding-left: 3px !important;
+}
+/* end logo */
+
+/* start sliders table */
+.wpoc-sliders-table{
+	border-radius: 7px;
+}
+.wpoc-sliders-table thead tr{
+	background-color: #337AB7; /* 37B0D5 727272 */
+	color: #ffffff;
+}
+.wpoc-sliders-table tbody tr td{
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+}
+/* end sliders table */ 
+
+/* */
+.wpoc-note{
+	color: #999999;
+	font-size: 12px;
+}
+.wpoc-hidden{
+	display: none !important;
+}
+
+.wpoc-field{
+	margin-top: 10px;
+}
+.wpoc-field > label{
+	font-weight: normal;
+}
+
+.littleNote{
+	font-size: 12px;
+	color: #999999;
+}
+/* */
+
+/* submit slider button */
+.wpoc-submit{
+	background-color: #F0F0F0;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	z-index: 2000;
+	position: fixed;
+	top: -56px;
+	left: 0px; /* ### */
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+.wpoc-submit.wpoc-fixed{
+	position: fixed;
+	top: 33px;
+	left: 0px; /* ### */
+}
+
+/* START slides */
+.collapsible-panel{
+	width: 100%;
+	margin: 5px;
+}
+.collapsible-panel .header{
+	background-color: #F5F5F5;
+	margin: 0;
+	padding: 5px;
+	border: solid 1px #E5E5E5;
+	cursor: move;
+	text-align: right; /* ### */
+}
+.collapsible-panel .header .action{
+	display: block;
+	float: left; /* ### */
+	height: 100%;
+	width: 17px;
+	cursor: pointer;
+	color: #000000;
+	margin-right: 10px; /* ### */
+}
+.collapsible-panel .header .action.delete:hover{
+	color: #E03E3E;
+}
+.collapsible-panel .header .action.duplicate:hover{
+	color: #419641;
+}
+.collapsible-panel .header .action.disabled{
+	color: #D1D1D1;
+	cursor: no-drop;
+}
+.collapsible-panel .header .action i{
+	font-size: 16px;
+}
+.collapsible-panel .header .icon{
+	display: block;
+	float: right; /* ### */
+	height: 100%;
+	width: 35px;
+}
+.collapsible-panel .body{
+	margin: 0;
+	padding: 10px;
+	border: solid 1px #E5E5E5;
+	background-color: #FFFFFF;
+	min-height: 200px;
+}
+/* default preview */
+.wpoc-default-preview{
+	margin: 15px 0px;
+	width: 215px;
+	height: 260px;
+	border: solid 1px #DDDDDD;
+	padding: 30px 0;
+	text-align: center;
+	resize: both;
+	-moz-resize: both;
+}
+.wpoc-default-preview span{
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+.wpoc-titles-wrapper{
+	height: 40%;
+}
+.wpoc-default-preview h3{
+	margin: 15px 0 0 0;
+}
+.wpoc-default-preview h4{
+	margin: 5px 0 0 0;
+	font-weight: 0;
+}
+
+.wpoc-fonts-container{
+	height: 300px;
+	width: 100%;
+	box-sizing: border-box;
+	overflow: scroll;
+	padding: 10px 20px;
+}
+.wpoc-color-picker{
+	width: 80px;
+	height: 30px;
+	margin: 5px;
+	border: 1px solid #DDDDDD;
+}
+/* font icon */
+.wpoc-selected-icon, .wpoc-font-icon{
+	width: 50px;
+	height: 50px;
+	background-color: #EAEAEA;
+	border: solid 1px #DDDDDD;
+	text-align: center;
+	padding: 10px 2px;
+	margin: 3px;
+	box-sizing: border-box;
+}
+.wpoc-font-icon{
+	float: right; /* ### */
+	cursor: pointer;
+}
+.wpoc-selected-icon i.fa, .wpoc-selected-icon  span.icon, .wpoc-font-icon i.fa, .wpoc-font-icon span.icon{
+	font-size: 32px;
+}
+
+/* tab-pane */
+.wpoc-tab-pane{
+	border-right: solid 1px #DDDDDD;
+	border-left: solid 1px #DDDDDD;
+	border-bottom: solid 1px #DDDDDD;
+	padding: 10px;
+}
+.wpoc-icon-image img{
+	max-width: 160px;
+	max-height: 170px;
+}
+/* END slides */
+
+/* START loading */
+.wpoc-loading{
+	display: block;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 99999;
+}
+.wpoc-loading.hidden{
+	display: none;
+}
+.wpoc-loading > div{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin: 20% auto;
+	color: #ffffff;
+}
+.wpoc-loading > div > img{
+	width: 100%;
+	height: 100%;
+}
+/* END loading */
+
+/* START view slider */
+.owl-carousel{
+	direction: ltr !important;
+}
+
+.wpoc-item {
+	margin: 10px;
+	padding: 0;
+}
+.wpoc-default-slide{
+	width: 100%;
+	height: 100%;
+	padding: 30px 0;
+	text-align: center;
+	background-color: transparent;
+}
+.wpoc-default-slide span{
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+.wpoc-default-slide .wpoc-titles-wrapper{
+	height: 40%;
+}
+.wpoc-default-slide h3{
+	margin: 15px 0 0 0;
+}
+.wpoc-default-slide h4{
+	margin: 5px 0 0 0;
+	font-weight: 0;
+}
+/* END view slider */
+
+/* START code editor */
+div.CodeMirror{
+	width: 100%;
+	height: 230px;
+	border: solid 1px #DDDDDD;
+}
+/* END code editor */

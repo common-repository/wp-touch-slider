@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpoc_slider\n"
+"POT-Creation-Date: 2016-02-22 01:42+0200\n"
+"PO-Revision-Date: 2016-02-22 01:42+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: functions.php:94 functions.php:108
+msgid "You do not have permissions to access this page!"
+msgstr ""
+
+#: functions.php:277
+msgid "Are you sure?"
+msgstr ""
+
+#: functions.php:378
+msgid "Page"
+msgstr ""
+
+#: functions.php:378
+msgid "of"
+msgstr ""
+
+#: functions.php:378
+msgid "pages"
+msgstr ""
+
+#: functions.php:440 functions.php:471
+msgid "Default"
+msgstr ""
+
+#: functions.php:445 functions.php:472
+msgid "Video"
+msgstr ""
+
+#: functions.php:450 functions.php:473 functions.php:758
+msgid "Custom text"
+msgstr ""
+
+#: functions.php:469
+msgid "Type"
+msgstr ""
+
+#: functions.php:515
+msgid "Background color"
+msgstr ""
+
+#: functions.php:522
+msgid "Selected icon"
+msgstr ""
+
+#: functions.php:534
+msgid "Icon color"
+msgstr ""
+
+#: functions.php:541
+msgid "Icon\\Image size"
+msgstr ""
+
+#: functions.php:541 functions.php:659
+msgid "px."
+msgstr ""
+
+#: functions.php:554
+msgid "Image instead of icon"
+msgstr ""
+
+#: functions.php:563
+msgid "select"
+msgstr ""
+
+#: functions.php:567
+msgid "remove"
+msgstr ""
+
+#: functions.php:581
+msgid "Slide url"
+msgstr ""
+
+#: functions.php:587
+msgid "The link is on"
+msgstr ""
+
+#: functions.php:590
+msgid "The slide"
+msgstr ""
+
+#: functions.php:591
+msgid "The large title"
+msgstr ""
+
+#: functions.php:596
+msgid "Open link in"
+msgstr ""
+
+#: functions.php:599
+msgid "Same window"
+msgstr ""
+
+#: functions.php:600
+msgid "New tab"
+msgstr ""
+
+#: functions.php:605
+msgid "Large title"
+msgstr ""
+
+#: functions.php:611
+msgid "Large title color"
+msgstr ""
+
+#: functions.php:618
+msgid "Large title styles"
+msgstr ""
+
+#: functions.php:628
+msgid "Small title"
+msgstr ""
+
+#: functions.php:634
+msgid "Small title color"
+msgstr ""
+
+#: functions.php:641
+msgid "Small title styles"
+msgstr ""
+
+#: functions.php:659
+msgid "Icon size"
+msgstr ""
+
+#: functions.php:718
+msgid "Video type"
+msgstr ""
+
+#: functions.php:720
+msgid "youtube"
+msgstr ""
+
+#: functions.php:721
+msgid "vimeo"
+msgstr ""
+
+#: functions.php:725
+msgid "Video url or ID"
+msgstr ""
+
+#: functions.php:731
+msgid "Auto-play"
+msgstr ""
+
+#: functions.php:761
+msgid "put here any text, html, shortcode"
+msgstr ""
+
+#: functions.php:893
+msgid "Slider is saved successfully"
+msgstr ""
+
+#: functions.php:901
+msgid "Saving process has failed"
+msgstr ""
+
+#: views/slider-options.php:5
+msgid "Responsive"
+msgstr ""
+
+#: views/slider-options.php:10
+msgid "Autoplay"
+msgstr ""
+
+#: views/slider-options.php:17 views/slider-options.php:216
+msgid "Time interval"
+msgstr ""
+
+#: views/slider-options.php:17 views/slider-options.php:24
+#: views/slider-options.php:32 views/slider-options.php:125
+#: views/slider-options.php:216 views/slider-options.php:228
+#: views/slider-options.php:239 views/slider-options.php:250
+msgid "sec."
+msgstr ""
+
+#: views/slider-options.php:20
+msgid "playing speed in seconds"
+msgstr ""
+
+#: views/slider-options.php:24 views/slider-options.php:239
+msgid "Pagination speed"
+msgstr ""
+
+#: views/slider-options.php:32 views/slider-options.php:228
+msgid "Slide speed"
+msgstr ""
+
+#: views/slider-options.php:38
+msgid "Show pagination"
+msgstr ""
+
+#: views/slider-options.php:45
+msgid "Pagination numbers"
+msgstr ""
+
+#: views/slider-options.php:48
+msgid "Show numbers inside pagination buttons"
+msgstr ""
+
+#: views/slider-options.php:52
+msgid "Lazy load"
+msgstr ""
+
+#: views/slider-options.php:55
+msgid "Delays loading of images"
+msgstr ""
+
+#: views/slider-options.php:61
+msgid "Lazy follow"
+msgstr ""
+
+#: views/slider-options.php:64
+msgid "Only loads the images that get displayed in viewport"
+msgstr ""
+
+#: views/slider-options.php:68
+msgid "Use fade-in effect with lazy load"
+msgstr ""
+
+#: views/slider-options.php:75
+msgid "drag before animation finish"
+msgstr ""
+
+#: views/slider-options.php:80
+msgid "Mouse drag"
+msgstr ""
+
+#: views/slider-options.php:87
+msgid "Touch drag"
+msgstr ""
+
+#: views/slider-options.php:92
+msgid "Navigation"
+msgstr ""
+
+#: views/slider-options.php:99
+msgid "Previous text"
+msgstr ""
+
+#: views/slider-options.php:104
+msgid "Next text"
+msgstr ""
+
+#: views/slider-options.php:111
+msgid "Scroll per page"
+msgstr ""
+
+#: views/slider-options.php:114
+msgid "This affect next/prev buttons and mouse/touch dragging"
+msgstr ""
+
+#: views/slider-options.php:118
+msgid "Rewind and slide to the first"
+msgstr ""
+
+#: views/slider-options.php:125 views/slider-options.php:250
+msgid "Rewind speed"
+msgstr ""
+
+#: views/slider-options.php:131
+msgid "Stop on hover"
+msgstr ""
+
+#: views/slider-options.php:138
+msgid "Height"
+msgstr ""
+
+#: views/slider-options.php:143
+msgid "Scale slides up"
+msgstr ""
+
+#: views/slider-options.php:146
+msgid "stretch slides if they less than the required"
+msgstr ""
+
+#: views/slider-options.php:152
+msgid "Display only one slide"
+msgstr ""
+
+#: views/slider-options.php:160
+msgid "Number of slides visible with each device screen"
+msgstr ""
+
+#: views/slider-options.php:169
+msgid "Desktop"
+msgstr ""
+
+#: views/slider-options.php:179
+msgid "Labtop"
+msgstr ""
+
+#: views/slider-options.php:191
+msgid "Tablet"
+msgstr ""
+
+#: views/slider-options.php:201
+msgid "Mobile"
+msgstr ""
+
+#: views/slider-slides.php:21
+msgid "Add slide"
+msgstr ""
+
+#: views/slider.php:15 views/slider.php:20
+msgid "Save"
+msgstr ""
+
+#: views/slider.php:24
+msgid "Slider name"
+msgstr ""
+
+#: views/slider.php:29
+msgid "shortcode"
+msgstr ""
+
+#: views/slider.php:35
+msgid "PHP function call"
+msgstr ""
+
+#: views/slider.php:45
+msgid "Slider Preview"
+msgstr ""
+
+#: views/slider.php:58
+msgid "Slides"
+msgstr ""
+
+#: views/slider.php:69
+msgid "Slider Options"
+msgstr ""
+
+#: views/sliders-view.php:26
+msgid "Create New Slider"
+msgstr ""
+
+#: views/sliders-view.php:36
+msgid "Sliders"
+msgstr ""
+
+#: views/sliders-view.php:44
+msgid "Name"
+msgstr ""
+
+#: views/sliders-view.php:45
+msgid "Shortcode"
+msgstr ""
+
+#: views/sliders-view.php:57
+msgid "Edit"
+msgstr ""
+
+#: views/sliders-view.php:60
+msgid "delete"
+msgstr ""
+
+#: views/sliders-view.php:67
+msgid "No sliders found"
+msgstr ""
+
+#: widget.php:9
+msgid "Displays selected Slider"
+msgstr ""
+
+#: widget.php:19
+msgid "Title"
+msgstr ""
+
+#: widget.php:27
+msgid "Slider"
+msgstr ""
